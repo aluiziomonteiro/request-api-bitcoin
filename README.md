@@ -20,8 +20,7 @@ ___
 ### HTML.
 ###### Esqueleto
 
-...
-
+~~~html
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -32,8 +31,8 @@ ___
     <script type="text/javascript"></script>
 </body>
 </html>
+~~~
 
-...
  
 ### FETCH
 ###### Método do js que permite a execução dos verbos da RestAPI.
@@ -46,8 +45,7 @@ ___
  
 * A API será exibida pelo "console.log(api)"
 
-...
-
+~~~javascript
     <script type="text/javascript">
     // My api key
         var apikey = {
@@ -67,26 +65,23 @@ ___
     });
 
     </script>
-    ...
+~~~
 
 * Ative a extensão.
 * Abra o index.html e nas ferramentas do desenvolvedor, deverá ser possível visualizar a lista de dados das moedas.
 * Adicione o link do bootstrap no css.
 
 ...
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+~~~html
     <!-- css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-...
-
+~~~
 
 * Envie as informações da APi para o html
 
-...
-
+~~~javascript
  .then((api) => {
         console.log(api);
 
@@ -111,9 +106,18 @@ ___
         //Envia os dados para dentro do HTML    
         document.getElementById("coins").innerHTML = texto;
 
-        }
-           
+        }   
     })
-...
-    
+~~~
 
+___
+
+### src
+
+* [index.html](https://github.com/aluiziomonteiro/request-api-bitcoin/blob/master/index.html)
+
+* [style.css](https://github.com/aluiziomonteiro/request-api-bitcoin/blob/master/css/style.css)
+
+* [script.js](https://github.com/aluiziomonteiro/request-api-bitcoin/blob/master/js/script.js)
+
+* [coin.jpeg](https://github.com/aluiziomonteiro/request-api-bitcoin/blob/master/img/coin.jpeg)
