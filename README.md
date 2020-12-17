@@ -71,31 +71,49 @@ ___
 
 * Ative a extensão.
 * Abra o index.html e nas ferramentas do desenvolvedor, deverá ser possível visualizar a lista de dados das moedas.
+* Adicione o link do bootstrap no css.
 
-___
+...
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-
-
-
-
-
-
-
+...
 
 
+* Envie as informações da APi para o html
 
+...
 
+ .then((api) => {
+        console.log(api);
 
+        var texto  = "";
+        //GEt 10 coins and symbols
+        for (let i = 0; i < 10; i++)
+        {
+             //Show API information
+             texto = texto + `
 
+            <div class="media">
+                <img src="coin.jpg" class="align-self-center mr-3" alt="coin" width="100" height="60">
+                <div class="media-body">
+                    <h5 class="mt-2">${api.data[i].name}</h5>
+                    <p>${api.data[i].symbol}</p>
+                    <p>${api.data[i].first_historical_data}</p>
+                </div>
+            </div>
 
+            `;  
 
+        //Envia os dados para dentro do HTML    
+        document.getElementById("coins").innerHTML = texto;
 
-
-
-
-
-
-
+        }
+           
+    })
+...
+    
 

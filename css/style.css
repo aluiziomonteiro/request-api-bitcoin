@@ -1,0 +1,15 @@
+body {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+img {
+    width: 118px;
+    height: 115px;
+}
+
+#title {
+    background: rgb(245, 245, 231);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
