@@ -1,5 +1,5 @@
 var apikey = {
-    key: 'a2a4e5f7-a787-4b13-8859-014df6b4e3f7'
+    key: 'Sua Key'
 }
 
 fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=' +
