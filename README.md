@@ -12,9 +12,13 @@ ___
  * extensão do chrome [Moesif Orign & CORS Changer](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related?hl=pt-BR&authuser=1)
  
  * Conta de desenvolvedor na CoinMarketCap.
+ * 
  1 - Acesse: [http://pro.coinmarketcap.com/account](http://pro.coinmarketcap.com/account/)
+ 
  2 - Clique em: GET an a API Key now.
+ 
  3 - Copie a key.
+ 
  ___
 
 ### HTML.
