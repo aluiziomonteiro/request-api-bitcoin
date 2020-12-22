@@ -2,6 +2,18 @@
 ___
 ___
 
+######Digital Innovation One
+Este material é uma anotação de uma das disciplinas que compõem o Bootcamp da Everis, oferecido por: Digital Innovation One.
+
+Aula ministrada por: Bárbara Casac
+Produzido por: Aluizio Monteiro
+
+[DIO |](https://www.linkedin.com/school/digitalinnovation-one/about/)
+[ Everis |](https://www.everis.com/)
+[ Bárbara Casac |](https://www.linkedin.com/in/barbaracasac/)
+[ Aluizio Monteiro](https://www.linkedin.com/in/aluizio-monteiro/)
+
+___
 ### Objetivos
  * Fazer uma requisição de uma API de Bitcoins.
  * Manipular os valores da API.
@@ -12,7 +24,7 @@ ___
  * extensão do chrome [Moesif Orign & CORS Changer](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc/related?hl=pt-BR&authuser=1)
  
  * Conta de desenvolvedor na CoinMarketCap.
- * 
+ 
  1 - Acesse: [http://pro.coinmarketcap.com/account](http://pro.coinmarketcap.com/account/)
  
  2 - Clique em: GET an a API Key now.
@@ -47,7 +59,7 @@ ___
  	* "responde.ok" = 200
  	* "response.error" = 400, 404...
  
-* A API será exibida pelo "console.log(api)"
+* A API será exibida pelo "console.log(api)":
 
 ~~~javascript
     <script type="text/javascript">
@@ -73,7 +85,7 @@ ___
 
 * Ative a extensão.
 * Abra o index.html e nas ferramentas do desenvolvedor, deverá ser possível visualizar a lista de dados das moedas.
-* Adicione o link do bootstrap no css.
+* Adicione o link do bootstrap no css:
 
 ...
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,7 +95,7 @@ ___
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 ~~~
 
-* Envie as informações da APi para o html
+* Envie as informações da APi para o html:
 
 ~~~javascript
  .then((api) => {
